@@ -1,8 +1,13 @@
-.container{
+.desktop{
     background-image: url("../../images/backgroundImageLarge.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     background-size: 100%;
+    background-color: black;
     height: 100vh;
+    margin: 0 !important;
+}
+.bottom-p{
+    margin: 15px;
 }
