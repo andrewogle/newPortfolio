@@ -6,8 +6,25 @@
     background-size: 100%;
     background-color: black;
     height: 100vh;
-    margin: 0 !important;
+    
+}
+.display-3{
+    margin-top: 150px;
 }
 .bottom-p{
     margin: 15px;
 }
+
+.my-2{
+    height: 1px;
+    color: white;
+    background-color: white;
+    border: none;
+    margin-top: 180px !important;
+}
+
+.button{
+    position: absolute;
+    bottom: 15px;
+    left: 48%;
+    }
