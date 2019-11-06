@@ -8,7 +8,7 @@ const Portfolio = (props) => {
   return (
     <CardColumns>
       <Card>
-        <CardImg top width="100%" src="/assets/256x186.svg" alt="Card image cap" />
+        <CardImg top width="100%" src="../../images/droom.png" alt="Card image cap" />
         <CardBody>
           <CardTitle>Card title</CardTitle>
           <CardSubtitle>Card subtitle</CardSubtitle>
