@@ -7,14 +7,39 @@ import {
   CardText,
   CardColumns,
   CardSubtitle,
-  CardBody
+  CardBody,
 } from "reactstrap";
 import droom from "../../images/droom.png";
 
-const Portfolio = props => {
+const Portfolio = (props) => {
   return (
-    <CardColumns >
-    <a name ='portfolio'></a>
+    <CardColumns>
+      <a name="portfolio"></a>
+      <Card>
+        <iframe
+          width="100%"
+          height="30%"
+          src="https://www.youtube.com/embed/vCk7QEtE3rY"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <CardBody>
+          <CardTitle >MemeFly</CardTitle>
+          <CardSubtitle>Team Lead</CardSubtitle>
+          <CardText>
+            MemeFly is an AI powered meme generator built on React for frontend,
+            using Node, MongoDB, GraphQL , AWS cloud services and SQL/NoSQL
+            database for backend. For the data engineering stack, the data lake
+            resides on AWS S3 with custom ETL packages that complete the data
+            feed-back loop. The machine learning model is created with
+            Tensorflow/Keras/Pytorch, packaged and deployed as a Restish API.
+            The whole data and machine learning pipelines are then orchestrated
+            with DAG tools such as Spark/Prefect/Airflow/Kubeflow.
+          </CardText>
+          <Button>Button</Button>
+        </CardBody>
+      </Card>
       <Card>
         <CardImg top width="100%" src={droom} alt="Card image cap" />
         <CardBody>
@@ -24,20 +49,13 @@ const Portfolio = props => {
             Droom is basicly Tinder for jobs. Companies can create a profile and
             a job listing and then swipe left or right on an applicant. Job
             seekers can create a profile and then swipe left or right on job
-            postings. We used React on the front-end, and Node on the back-end. 
-            My role on this project was that of the project manager. 
+            postings. We used React on the front-end, and Node on the back-end.
+            My role on this project was that of the project manager.
           </CardText>
           <Button>Button</Button>
         </CardBody>
       </Card>
-      <Card>
-        <CardImg
-          top
-          width="100%"
-          src="/assets/256x186.svg"
-          alt="Card image cap"
-        />
-      </Card>
+
       <Card>
         <CardBody>
           <CardTitle>Card title</CardTitle>

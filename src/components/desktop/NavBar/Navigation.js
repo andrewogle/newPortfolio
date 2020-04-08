@@ -1,30 +1,30 @@
 import React, { useState, useEffect } from 'react';
 import './navBar.css'
 
-const white = 'white'
-const black = 'black'
-const myNav = 'navBar'
+// const white = 'white'
+// const black = 'black'
+// const myNav = 'navBar'
 
 
 const Navigation = (props) => {
-  const [scroll, setScroll] = useState(true)
+  // const [scroll, setScroll] = useState(true)
 
-  useEffect(() => {
-    document.addEventListener("scroll", () => {
-      const scrollCheck = window.scrollY 
-      if (scrollCheck < 25) {
-        setScroll(!scrollCheck)
-      }
-    })
-  })
+  // useEffect(() => {
+  //   document.addEventListener("scroll", () => {
+  //     const scrollCheck = window.scrollY 
+  //     if (scrollCheck < 25) {
+  //       setScroll(!scrollCheck)
+  //     }
+  //   })
+  // })
 
 
   return (
-    <nav className =''>
+    <nav className ='navBar white'>
     <h1 className = 'name'>Andrew Ogle</h1>
-    <a href='#portfolio'>portfolio</a>
-    <a>Contact</a>
-    <a>About</a>
+    <a href='#portfolio' >portfolio</a>
+    <a href='#'>Contact</a>
+    <a href='#'>Home</a>
 
     </nav>
   );

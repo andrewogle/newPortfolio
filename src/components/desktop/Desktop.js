@@ -10,6 +10,7 @@ const Desktop = () => {
     <div className="deskCon">
       <Navigation />
       <Jumbotron className="desktop">
+      <div class="clouds"></div>
         <h1 className="display-3 text-white">Hello!</h1>
         <p className="lead text-white">My name is Andrew, and I make cool stuff.</p>
         {/* <hr className="my-2" /> */}
