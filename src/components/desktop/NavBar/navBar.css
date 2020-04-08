@@ -1,0 +1,29 @@
+.navBar{
+    width: 100%;
+    position: fixed;
+    display: grid;
+    grid-template-columns: 26% 26% 16% 16% 16% ;
+    justify-items: center;
+    align-items: center;
+    z-index: 100;
+    padding: 1%;
+    font-family: 'Roboto', sans-serif;
+
+}
+.white{
+    color: darkgray;
+}
+.black{
+    color: midnightblue
+}
+.name{
+    justify-self: left;
+    grid-column: 1/ 3;
+    font-family: 'Lobster', cursive;
+    font-size: 1.5rem;
+    
+}
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}

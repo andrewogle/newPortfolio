@@ -1,6 +1,6 @@
 import React from "react";
 import { Jumbotron, Button } from "reactstrap";
-import Navigation from "./Navigation";
+import Navigation from "./NavBar/Navigation";
 import Portfolio from './Portfolio'
 
 import "./desktop.css";
@@ -15,7 +15,7 @@ const Desktop = () => {
         {/* <hr className="my-2" /> */}
       
         <p className="lead bottom-p">
-          <Button className= "button" color="primary">Learn More</Button>
+        
         </p>
       </Jumbotron>
       <Portfolio/>
