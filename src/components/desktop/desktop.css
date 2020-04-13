@@ -4,10 +4,10 @@
     background-position: center;
     background-attachment: fixed;
     background-size: 100%;
-    background-color: black;
+    
     height: 100vh;
     font-family: 'Roboto', sans-serif;
-    color:  #ffa500;
+
 }
 .display-3{
     margin-top: 150px;
@@ -23,12 +23,42 @@
     border: none;
     margin-top: 180px !important;
 }
-
+.header{
+    font-size: 2rem;
+    margin: 10% 0;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns:28% 50% 22%;
+}
+.call{
+    width: 50%;
+    align-self: center;
+    justify-self: center;
+    margin-right: 10%;
+    grid-column: 2;
+}
 .button{
     position: absolute;
     bottom: 15px;
     left: 48%;
     }
+.cardBtn{
+    margin: 5px;
+    background-color: turquoise;
+}
+.textBlock{
+    margin: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.appName{
+    font-size: 1.5rem;
+}
+.title{
+    font-family: 'Roboto', sans-serif;
+}
     @keyframes move-clouds-back {
         from {background-position:0 0;}
         to {background-position:10000px 0;}
@@ -45,7 +75,7 @@
         from {background-position: 0;}
         to {background-position:10000px 0;}
     }
-    .stars, .twinkling, .clouds {
+     .clouds {
         position:absolute;
         top:0;
         left:0;
@@ -65,4 +95,20 @@
       -o-animation:move-clouds-back 200s linear infinite;
       -webkit-animation:move-clouds-back 200s linear infinite;
       animation:move-clouds-back 200s linear infinite;
+    }
+    
+    .portfolio{
+        background-image: url("../../images/pinkandpurple.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: 100%;
+        background-color: lightgray;
+        /* height: 100vh; */
+    }
+    .icon{
+        z-index: 5001;
+        margin: 2%;
+        font-size: 1.5rem;
+        color: #3d3a3a;
     }

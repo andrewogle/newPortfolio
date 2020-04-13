@@ -23,7 +23,7 @@ const Navigation = (props) => {
     <nav className ='navBar white'>
     <h1 className = 'name'>Andrew Ogle</h1>
     <a href='#portfolio' >portfolio</a>
-    <a href='#'>Contact</a>
+    <a href='#contact'>Contact</a>
     <a href='#'>Home</a>
 
     </nav>

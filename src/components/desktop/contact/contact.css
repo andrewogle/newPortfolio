@@ -1,0 +1,22 @@
+.contact{
+    background-image: url("../../../images/beach.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-color: lightgray;
+    height: 100vh;
+}
+.form{
+    margin: 10% auto;
+    width: 50%;
+}
+.contactText{
+    font-family: 'Roboto', sans-serif;
+    color: #3d3a3a;
+    margin: 5%;
+}
+
+.email{
+    color: white;
+}
