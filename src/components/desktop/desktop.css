@@ -98,9 +98,8 @@
     }
     
     .portfolio{
-        background-image: url("../../images/pinkandpurple.jpg");
-        background-repeat: no-repeat;
-        background-position: center;
+        
+       
         background-attachment: fixed;
         background-size: 100%;
         background-color: lightgray;
@@ -111,4 +110,22 @@
         margin: 2%;
         font-size: 1.5rem;
         color: #3d3a3a;
+    }
+    @media(max-width:767px){
+        .clouds{
+            display: none;
+        }
+        .desktop{
+            background-image: none;
+            background-color: black;
+        }
+        .contact{
+            background-image: none;
+            background-color: black;
+        }
+        .contactText{
+            
+            color:white;
+     
+        }
     }

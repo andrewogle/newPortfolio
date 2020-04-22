@@ -1,5 +1,6 @@
 .navBar{
     width: 100%;
+    background-color: black;
     position: fixed;
     display: grid;
     grid-template-columns: 26% 26% 16% 16% 16% ;
@@ -8,10 +9,11 @@
     z-index: 100;
     padding: 1%;
     font-family: 'Roboto', sans-serif;
+    color: white;
 
 }
 .white{
-    color: #3d3a3a;
+    color: white;
 }
 
 .name{
